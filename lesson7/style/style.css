@@ -1,0 +1,232 @@
+.menu {
+    border:5px solid rgb(12, 12, 12);
+    background-color: rgba(175, 170, 175, 0.64);
+    padding: 30px;
+    border-radius: 5px;
+    position: sticky;
+}
+#link1{
+    position: relative;
+    /* border: 4px solid rgb(10, 10, 10); */
+    padding: 25px;
+    background-color: rgba(218, 108, 224, 0.919);
+    border-radius: 10px;
+    left:60px;
+    cursor: pointer; 
+    color:black
+}
+#link1:hover{
+    background-color: rgb(193, 159, 226);
+}
+#link2 {
+    position: relative;
+    left: 550px;
+    /* border: 4px solid rgb(12, 12, 12); */
+    padding: 25px;
+    background-color:  rgba(218, 108, 224, 0.919);
+    border-radius: 10px;
+    cursor: pointer;
+    color:black;
+}
+#link2:hover{
+    background-color: rgb(193, 159, 226);
+}
+#link3 {
+    position: relative;
+    left:1050px;
+    /* border: 4px solid black; */
+    padding: 25px;
+    background-color:  rgba(218, 108, 224, 0.919);
+    border-radius: 10px;
+    cursor: pointer;
+    color: black;
+}
+#link3:hover {
+    background-color: rgb(193, 159, 226);
+}
+p {
+    text-align:justify
+    
+}
+html {
+    background-color: rgb(246, 198, 249);
+}
+.border1 {
+    border: 5px solid red;
+    border-style: dotted;
+    background-color:rgb(179, 132, 223);
+    border-radius: 10px;
+    position:relative;
+    bottom: 1130px;
+}
+th {
+    border-radius: 5px;
+    padding: 20px;
+    background-color: rgb(118, 72, 161);
+}
+td {
+    padding: 25px;
+    background-color: rgb(245, 229, 211);
+    text-align: center;
+    border-radius: 5px;
+}
+td:hover{
+    background-color: rgb(102, 34, 165);
+    font-size:xx-large;   
+}
+
+.pannel {
+    position: relative;
+    left:100px;
+    border:3px solid salmon;
+    width: 50px;
+    text-align: right;
+    background-color: rgb(201, 67, 198);
+    padding: 30px;
+    border-radius: 10px;
+    position: fixed;
+  top: 100px;
+  left: 1350px;
+}
+.pannel:hover{
+    width: 100px;
+}
+#Igimg {
+    width: 50px;
+    height: 50px;
+    border: 2px solid red;
+    border-radius: 5px;
+    position: relative;
+    background-color: rgb(1, 18, 12);
+
+}
+#FBimg {
+    width: 50px;
+    height: 50px;
+    border: 2px solid rgb(17, 3, 88);
+    border-radius: 5px;
+    
+}
+#GitHubimg{
+    width: 50px;
+    height: 50px;
+    border: 2px solid rgb(18, 18, 18);
+    border-radius: 5px;  
+}
+.IGlink:hover {
+    font-size: xx-large;
+    padding-left:  45px;
+    padding-top: 25px;
+    background-color: rgb(149, 7, 142);
+}
+.FBimage:hover {
+    font-size: xx-large;
+    padding-left:  45px;
+    padding-top: 25px;
+    background-color: rgb(149, 7, 142);
+}
+.GitHubimage:hover {
+    font-size: xx-large;
+    padding-left:  45px;
+    padding-top: 25px;
+    background-color: rgb(149, 7, 142);
+}
+div.menu {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+  }
+  #CatPic {
+    border-radius: 50px;
+
+  }
+  .comment{
+    border: 0px solid rgb(47, 25, 25);
+    width: 600px;
+    padding:30px ;
+    
+  }
+  h2 {
+    position:absolute;
+    top: 815px;
+    right: 1230px;
+
+  }
+  span {
+    color: rgb(252, 252, 251);
+    position: relative;
+    top:35px;
+    right:20px
+  }
+  #comsection {
+    position: relative;
+    padding-right: 200px;
+    padding-bottom: 120px;
+    left: 80px;    
+  }
+  #button {
+    position: relative;
+    border: 2px solid rgb(25, 186, 47);
+    border-radius: 5px;
+    padding: 8px;
+    background-color: rgb(4, 193, 51);
+    text-align: center;
+    left: 80px;
+    top:15px
+
+
+  }
+  #button1 {
+    position: relative;
+    border: 2px solid red;
+    padding: 8px;
+    left: 315px;
+    border-radius: 5px;
+    background-color: rgba(255, 0, 0, 0.819);
+    top:15px;
+  }
+  .footer {
+    display: flex;
+    position: relative;
+    width: 1500px;
+    height: 200px;
+    background-color: rgba(137, 43, 226, 0.332);
+    padding-left:50px;
+    margin: 40px; 
+    right:80px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+  #UsefulLinks{
+    padding-left: 80px;
+    width:33.333%;
+  }
+  #NewSletter {
+    padding-left: 180px;
+    width:33.333%;
+  }
+  #Contact { 
+    padding-left: 150px;
+    width:33.333%;
+  }
+ 
+  #Email{
+    position: relative;
+    padding:15px;
+    width: 300px;
+    text-align: center;
+    right:90px;
+    height: 40px;
+  }
+  #SubNow {
+    position: relative;
+    padding: 15px ;
+    border-radius: 25px;
+    top: 25px;
+    right:20px;
+    cursor: pointer;
+  }
+  #SubNow:hover {
+    background-color: blueviolet;
+    padding: 20px;
+  }
