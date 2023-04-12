@@ -7,7 +7,7 @@
 }
 #link1{
     position: relative;
-    border: 4px solid rgb(10, 10, 10);
+    /* border: 4px solid rgb(10, 10, 10); */
     padding: 25px;
     background-color: rgba(218, 108, 224, 0.919);
     border-radius: 10px;
@@ -21,7 +21,7 @@
 #link2 {
     position: relative;
     left: 550px;
-    border: 4px solid rgb(12, 12, 12);
+    /* border: 4px solid rgb(12, 12, 12); */
     padding: 25px;
     background-color:  rgba(218, 108, 224, 0.919);
     border-radius: 10px;
@@ -34,7 +34,7 @@
 #link3 {
     position: relative;
     left:1050px;
-    border: 4px solid black;
+    /* border: 4px solid black; */
     padding: 25px;
     background-color:  rgba(218, 108, 224, 0.919);
     border-radius: 10px;
@@ -57,7 +57,7 @@ html {
     background-color:rgb(179, 132, 223);
     border-radius: 10px;
     position:relative;
-    bottom: 730px;
+    bottom: 1130px;
 }
 th {
     border-radius: 5px;
@@ -79,7 +79,7 @@ td:hover{
     position: relative;
     left:100px;
     border:3px solid salmon;
-    width: 100px;
+    width: 50px;
     text-align: right;
     background-color: rgb(201, 67, 198);
     padding: 30px;
@@ -88,6 +88,9 @@ td:hover{
   top: 100px;
   left: 1350px;
 }
+.pannel:hover{
+    width: 100px;
+}
 #Igimg {
     width: 50px;
     height: 50px;
@@ -95,6 +98,7 @@ td:hover{
     border-radius: 5px;
     position: relative;
     background-color: rgb(1, 18, 12);
+
 }
 #FBimg {
     width: 50px;
@@ -158,6 +162,71 @@ div.menu {
     position: relative;
     padding-right: 200px;
     padding-bottom: 120px;
+    left: 80px;    
+  }
+  #button {
+    position: relative;
+    border: 2px solid rgb(25, 186, 47);
+    border-radius: 5px;
+    padding: 8px;
+    background-color: rgb(4, 193, 51);
+    text-align: center;
     left: 80px;
-    
+    top:15px
+
+
+  }
+  #button1 {
+    position: relative;
+    border: 2px solid red;
+    padding: 8px;
+    left: 315px;
+    border-radius: 5px;
+    background-color: rgba(255, 0, 0, 0.819);
+    top:15px;
+  }
+  .footer {
+    display: flex;
+    position: relative;
+    width: 1500px;
+    height: 200px;
+    background-color: rgba(137, 43, 226, 0.332);
+    padding-left:50px;
+    margin: 40px; 
+    right:80px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+  #UsefulLinks{
+    padding-left: 80px;
+    width:33.333%;
+  }
+  #NewSletter {
+    padding-left: 180px;
+    width:33.333%;
+  }
+  #Contact { 
+    padding-left: 150px;
+    width:33.333%;
+  }
+ 
+  #Email{
+    position: relative;
+    padding:15px;
+    width: 300px;
+    text-align: center;
+    right:90px;
+    height: 40px;
+  }
+  #SubNow {
+    position: relative;
+    padding: 15px ;
+    border-radius: 25px;
+    top: 25px;
+    right:20px;
+    cursor: pointer;
+  }
+  #SubNow:hover {
+    background-color: blueviolet;
+    padding: 20px;
   }
