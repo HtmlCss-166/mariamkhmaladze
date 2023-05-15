@@ -2,9 +2,52 @@
     <head>
         <title>Log in</title>
         <link rel="stylesheet" href="/github/mariamkhmaladze/FinalProject/styles/login.css">
+        <link href='https://fonts.googleapis.com/css?family=Sofia' rel='stylesheet'>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Audiowide">
+  <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Aladin'>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8"> 
+  <meta http-equiv="X-UA-Compatible" content="IE-edge" > 
     </head>
     <body>
-        <header></header>
+        <header>
+            <nav>
+                <div class="NavTop">
+                   <h2> Vintage </br> Store</h2>
+                      <div class="search">
+                          <input type="text" placeholder="Search..." class="searchInput">
+                          <i class="fa fa-search" aria-hidden="true"></i>
+                   </div> 
+                        <h3 class="limitedOffer"> Limited Offer!</h3>
+                       
+                       <a href="/github/mariamkhmaladze/FinalProject/LogIn.html"> <i class="fa fa-shopping-cart" style="font-size:36px"></i></a> 
+                  
+               </div>
+               <div id="navBottom">
+                   <a href="/github/mariamkhmaladze/FinalProject/homepage.html"> Home</a>
+                   <a href="/github/mariamkhmaladze/FinalProject/LogIn.html"> Log In</a>
+                   <a href="/github/mariamkhmaladze/FinalProject/giftcards.html"> Gift Cards</a>
+                   <a href="/github/mariamkhmaladze/FinalProject/blog.html"> Blog</a>
+                   <a href="/github/mariamkhmaladze/FinalProject/contactus.html" >Contact</a>
+                   <a href="/github/mariamkhmaladze/FinalProject/aboutus.html"  >About Us</a>
+               </div>
+               <div>               
+               </div>
+               <a id="icon" onclick="toggleMenuAction()">
+                   <i class="fa fa-bars" aria-hidden="true"></i>
+               </a>
+               <div class="socialmedea"> 
+                   <a class="fb" href="https://www.facebook.com/"> <img id="fbimg" src="/github/mariamkhmaladze/FinalProject/fbLogo.png" alt="fbpic" > </a>
+               
+                   <a ckass="ig" href="https://www.instagram.com/"> <img id="igimg" src="/github/mariamkhmaladze/FinalProject/InstagramLogo.png " alt="igpic" > </a>
+                
+                   <a class="twitter" href="https://twitter.com/"> <img id="twitterimg" src="/github/mariamkhmaladze/FinalProject/twitterLogo.png"   alt="twitterpic" > </a>                
+               </div>
+           </nav>
+        </header>
         <main>
             <form id="login" onsubmit="formHandler()">
                <div class="login">
@@ -31,6 +74,14 @@
                     window.location.replace('loginSuccess.html');
                 } else {
                     window.location.replace('loginFailed.html');
+                }
+            }
+            function toggleMenuAction(){
+                var x = document.getElementById("navBottom");
+                if (x.style.display === "block") {
+                    x.style.display = "none";
+                } else {
+                    x.style.display = "block";
                 }
             }
             </script>

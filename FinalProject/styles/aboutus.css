@@ -1,8 +1,131 @@
 html{
-    background-color: aliceblue;
+  background-color: antiquewhite;
 }
+:root {
+  --globalFontSize: 20px;
+  --darkcolor:#0C134F;
+  --navycolor: #1D267D;
+  --purplecolor:rgb(92, 70, 156);
+  --lightpurplecolor: rgb(212, 173, 252);
+  --pinkcolor: rgb(244, 100, 196);
+}
+@media only screen and (max-width: 700px) {
+  #saleproducts {
+    width: 49.99999%;
+    margin: 6px 0;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  #saleproducts {
+    width: 100%;
+  }
+}
+h2 {
+  font-family: "Audiowide", sans-serif;
+  position: relative;
+  padding-left: 50px;
+  color: var(--pinkcolor)
+}
+body {
+  padding: 0;
+  margin: 0;
+}
+nav {
+  background-color: var(--darkcolor);
+  color:var(--pinkcolor);
+  padding: 20px 50px;
+  overflow: hidden;
+  position: relative;
+}
+.navTop {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.search {
+  display: flex;
+  align-items: center;
+  background-color: gray;
+  padding: 10px 20px;
+  border-radius: 10px;
+}
+.searchInput {
+  border: none;
+  background-color: transparent;
+}
+.searchInput::placeholder {
+  color: lightgray;
+}
+.limitedOffer {
+  font-size: 20px;
+  border-bottom: 2px solid rgb(194, 40, 156);
+  cursor: pointer;
+}
+.navBottom {
+  align-items: center;
+  justify-content: center;
+}  
+nav #navBottom{
+display: none;
+}
+#navBottom a{
+ margin-right: 50px;
+ cursor: pointer;
+ color: rgb(165, 158, 158);
+  font-weight: 400;
+  float: left;
+  color: rgb(221, 86, 192);
+  padding: 14px 16px ;
+  text-decoration: none;
+  font-size: 17px;
+  display: block;
+}
+#navBottom a:hover {
+  border-radius: 10px;
+  background-color: var(--pinkcolor);
+  color: rgb(10, 3, 66);
+}
+.active {
+  background-color: rgb(68, 6, 214);
+  color: rgb(41, 1, 1); 
+}
+i{
+  cursor: pointer;
+}
+.socialmedea{
+padding-left: 1250px;
+padding-top: 20px;
+cursor: pointer;
+}
+.fb {
+padding: 15px;
+width:30px;
+}
+.ig{
+padding: 15px;
+width: 30px;
+height: 30px;
+}
+.twitter{
+padding: 15px;  
+width: 30px;
+height: 30px;
+}
+#fbimg {
+  width:30px;
+  border-left: none;
+}
+#igimg {
+  width: 30px;
+  
+}
+#twitterimg {
+  width:30px;
+  
+}
+   
 h2{
-    padding: 50px;
     text-align: center;
     font-style: inherit;
     color: rgb(182, 106, 8);
@@ -16,7 +139,7 @@ p{
     background-color: azure;
 
 }
-img{
+#aboutus{
     width: 500px;
     margin-left: 550px;
     border: 1px solid red;
