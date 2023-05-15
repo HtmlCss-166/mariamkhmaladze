@@ -1,0 +1,37 @@
+html{
+    background-color: antiquewhite;
+}
+p{
+    font-style:italic ;
+    font-weight: bold;
+    color: rgb(44, 41, 4);
+    font-size: x-large;
+    padding: 20px;
+}
+h1{
+    padding-top: 50px;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    text-shadow: 2px 3px rgb(230, 150, 120);
+}
+.blog{
+    margin-top: 50px;
+    margin-left:150px;
+    margin-right: 150px;
+    background-image: url("/github/mariamkhmaladze/FinalProject/backgroundimage.jpg");
+
+    
+}
+.furniture1{
+    width:200px;
+    height: 250px;
+    border: 3px solid black;
+    border-radius: 10px;
+    border-style: dashed;
+    cursor: pointer;
+}
+.text2{
+    font-style: italic;
+    text-justify:newspaper;
+    
+}

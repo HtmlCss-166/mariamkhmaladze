@@ -1,0 +1,36 @@
+html{
+    background-color: beige;
+}
+h1{
+    text-align: center;
+    padding: 20px;
+}
+#info{
+    margin-left: 150px;
+    margin-right: 150px;
+    text-align: center; 
+    font-style:oblique; 
+}
+.contact{
+    margin-top: 100px;
+    margin-left: 450px;
+    margin-right: 150px;
+    display: flex;
+}
+.contactinfo{
+    border: 1px solid purple;
+    border-radius: 20px;
+    background-color: rgba(255, 0, 195, 0.242);
+    padding: 30px;
+    
+}
+.contactinfo :hover{
+    background-color: darkorchid;
+}
+.visit{
+    border: 1px solid purple;
+    border-radius: 20px;
+    background-color: rgba(255, 0, 195, 0.242);
+    padding: 30px;
+    margin-left: 150px;
+}

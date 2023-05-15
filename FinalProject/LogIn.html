@@ -1,0 +1,38 @@
+<html>
+    <head>
+        <title>Log in</title>
+        <link rel="stylesheet" href="/github/mariamkhmaladze/FinalProject/styles/login.css">
+    </head>
+    <body>
+        <header></header>
+        <main>
+            <form id="login" onsubmit="formHandler()">
+               <div class="login">
+                <label>Username</label>
+                <input type="text" name="username" />
+                <br>
+                <br>
+                <label>Password:</label>
+                <input type="password" name="password" />
+                <input id="loginbotton" type="submit" value="Login" />
+               </div>
+            </form>
+            <p id="loginInfo"></p>
+        </main>
+        
+            <script>
+                  function formHandler() {
+                var loginInfo = document.getElementById('loginInfo');
+                var username = document.getElementsByName('username')[0].value;
+                var password = document.getElementsByName('password')[0].value;
+                event.preventDefault();
+                
+                if (username == 'Mariam Khmaladze' && password == 'admin') {
+                    window.location.replace('loginSuccess.html');
+                } else {
+                    window.location.replace('loginFailed.html');
+                }
+            }
+            </script>
+    </body>
+</html>
